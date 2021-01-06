@@ -14,7 +14,7 @@ that manifests itself in another project.
 
 There are two commands to facilitate this workflow:
 
-##### `yarn link` (in package you want to link) <a class="toc" id="toc-yarn-link-in-package-you-want-to-link" href="#toc-yarn-link-in-package-you-want-to-link"></a>
+##### `yarn link` (reach relay) <a class="toc" id="toc-react relay" href="#toc-yarn-react relay"></a>
 
 This command is run in the package folder you'd like to link. For example if you
 are working on `react` and would like to use your local version to debug a
@@ -52,3 +52,4 @@ Links are registered in `~/.config/yarn/link`. If you want to specify a differen
 To reverse this process, simply use `yarn unlink` or `yarn unlink [package]`. Also see:
 
 - [`yarn unlink`]({{url_base}}/docs/cli/unlink): unlink a linked package.
+Reach relay
